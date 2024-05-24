@@ -13,6 +13,6 @@ script:
 
 addons:
   sonarcloud:
-    organization: "<your-sonarcloud-org>"
+    organization: "ilermak"
     token:
       secure: $SONAR_TOKEN

@@ -42,8 +42,8 @@ jobs:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
       with:
         args: >
-          -Dsonar.projectKey=${{ secrets.SONAR_PROJECT_KEY }}
-          -Dsonar.organization=${{ secrets.SONAR_ORG }}
+          -Dsonar.projectKey=uivprpo-practice
+          -Dsonar.organization=ilermak
           -Dsonar.host.url=https://sonarcloud.io
           -Dsonar.python.coverage.reportPaths=coverage.xml
           -Dsonar.sources=.
