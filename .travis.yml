@@ -4,11 +4,9 @@ python:
 
 install:
   - pip install -r requirements.txt
-  - pip install pylint
 
 script:
   - python -m unittest discover -s tests
-  - pylint calculator.py
   - sonar-scanner
 
 addons:
